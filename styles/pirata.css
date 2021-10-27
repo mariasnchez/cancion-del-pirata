@@ -1,0 +1,22 @@
+/*HOJA DE ESTILO DE LA CANCIÓN DEL PIRATA DE ESPRONCEDA*/
+
+@font-face {
+  font-family: caligrafia;
+  src: url("../fonts/GreatVibes-Regular.ttf");
+}
+    body {background-image: url("../images/fondo.jpg");
+        background-size: 200px 200px;
+        font-family: caligrafia;
+          margin:0;
+          padding:0;}
+    #container {background-color: #e2ddc5d3;
+                text-align: center;
+                width: 80%;
+                /* height: 100vh; no hace falta */
+                padding: 20px 0;
+                margin: auto;
+                text-align:center;
+                border:3px solid black;
+                border-radius: 30px;
+                box-shadow: 20px 20px 40px black;}
+                /*aunque se pueda regular el ancho y el alto en una caja css, se suele regular únicamente el ancho, y dejar que se produzcan scrolls en vertical*/
